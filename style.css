@@ -29,8 +29,8 @@ a.result-title:hover {
     padding: 10px;
     width: 300px;
     height: 300px;
-    border: 1px solid #bbb;
-    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
 }
 
 .result-image-container img {
@@ -70,18 +70,34 @@ a.result-title:hover {
 }
 
 #filter-update-button {
-    width: 150px;
-    height: 35px;
+    width: 90%;
+    height: 45px;
     border: 1px solid black;
     border-radius: 5px;
     color: white;
+    font-size: 20px;
+    font-weight: lighter;
     background: black;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
 }
 
 #filter-update-button:hover {
     background: pink;
     color: black;
     cursor: pointer;
+}
+
+.filter-fieldset label {
+    position: relative;
+    bottom: 5px;
+}
+
+#filter-city {
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 header {
@@ -92,8 +108,8 @@ header {
 .site-title {
     display: block;
     position: absolute;
-    top: 40px;
-    left: 200px;
+    top: 35px;
+    left: 170px;
     font-size: 60pt;
 }
 
@@ -101,24 +117,49 @@ header {
     color: white;
     text-decoration: none;
     font-family: Roboto Slab;
+    font-weight: normal;
 }
 
 .site-title a:hover {
     cursor: pointer;
 }
 
-aside {
-    background: #ddd;
-    width: 225px;
-    margin: 10px;
-    padding: 10px;
+
+input {
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    height: 20px;
 }
 
-aside>div {
+aside>h2 {
     padding: 10px;
+    width: 90%;
+}
+
+.filter-input-container {
+    padding: 10px;
+    width: 90%;
+}
+
+#filter-text {
+    width: ;
 }
 
 #filter-min-price, #filter-max-price {
     postition: inline;
     width: 72px;
+}
+
+#results {
+    display: inline-block;
+    /* background: blue; */
+    position: absolute;
+}
+
+aside {
+    background: #eee;
+    width: 220px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
 }
