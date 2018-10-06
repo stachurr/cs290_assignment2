@@ -2,6 +2,123 @@
  * You should write your CSS in this file.  Don't forget to add your name and
  * @oregonstate.edu email address below.
  *
- * name:
- * email:
+ * name: Ryan Stachura
+ * email: stachurr@oregonstate.edu
  */
+* {
+    margin: 0px;
+    font-family: Roboto;
+}
+
+a.result-title {
+    color: #ff6c47;
+    text-decoration: none;
+}
+
+a.result-title:hover {
+    text-decoration: underline;
+}
+
+.result {
+    display: inline;
+    float: left;
+    padding:10px;
+}
+
+.result-contents {
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.result-image-container img {
+    max-width: 100%;
+}
+
+.result-price {
+    background-color: #eee;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 10pt;
+}
+
+#sell-something-button {
+    display: block;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #cc8400;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 20pt;
+}
+
+#sell-something-button:hover {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    right: 25px;
+    bottom: 25px;
+    font-size: 25pt;
+    cursor: pointer;
+}
+
+#filter-update-button {
+    width: 150px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background: black;
+}
+
+#filter-update-button:hover {
+    background: pink;
+    color: black;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    background: black;
+}
+
+.site-title {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 60pt;
+}
+
+.site-title a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto Slab;
+}
+
+.site-title a:hover {
+    cursor: pointer;
+}
+
+aside {
+    background: #ddd;
+    width: 225px;
+    margin: 10px;
+    padding: 10px;
+}
+
+aside>div {
+    padding: 10px;
+}
+
+#filter-min-price, #filter-max-price {
+    postition: inline;
+    width: 72px;
+}
