@@ -13,6 +13,8 @@
 a.result-title {
     color: #ff6c47;
     text-decoration: none;
+    display: inline-block;
+    padding-top: 20px;
 }
 
 a.result-title:hover {
